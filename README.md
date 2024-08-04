@@ -6,7 +6,7 @@
 En este caso, el costo total es: </br>
 Costo total = Costo de almacenaje + Costo de transporte
 
-### Modo de transporte:
+### Modo de transporte
 - Aire
 - Tierra
 

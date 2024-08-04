@@ -1,7 +1,7 @@
 # Análisis de una cadena de suministro (Supply Chain)
 ## Descripción del proyecto:
 
-<img src = "Supply Chain Image.png">
+<img src = "Supply Chain Image.png" width="350">
 
 - Analizar una cadena de suministro formada por 15 plantas de almacenamiento, 11 puertos de orígenes y 1 puerto de destino. </br>
 - Determinar un conjunto de plantas de almacenaje, puertos de origen y puertos de destino que minimicen el costo total de la cadena de suministro.

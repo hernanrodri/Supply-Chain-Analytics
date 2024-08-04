@@ -6,8 +6,12 @@
 En este caso, el costo total es: </br>
 Costo total = Costo de almacenaje + Costo de transporte
 
-Por oto lado, el cliente decide qué nivel de servicio requiere:
-- CRF (Customer Referred Freight) Solo el cliente paga el transporte.
+### Modo de transporte:
+- Aire
+- Tierra
+
+### Nivel de servicio
+- CRF (Customer Referred Freight): Solo el cliente paga el transporte.
 - DTD (Door To Door):
 - DTP (Door To Port):
 

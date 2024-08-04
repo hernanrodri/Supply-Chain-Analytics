@@ -7,6 +7,9 @@ En este caso, el costo total es: </br>
 Costo total = Costo de almacenaje + Costo de transporte
 
 Por oto lado, el cliente decide qué nivel de servicio requiere:
-- DTD: Puerta a Puerta (Door To Door)
-- DTP: Puerta a Puerto (Door To Port)
-- CRF: Carga Referida por el Cliente (Customer Referred Freight)
+- CRF (Customer Referred Freight) Solo el cliente paga el transporte.
+- DTD (Door To Door):
+- DTP (Door To Port):
+
+## Referencias:
+<a href = https://brunel.figshare.com/articles/dataset/Supply_Chain_Logistics_Problem_Dataset/7558679?file=20162015> Link </a>

@@ -9,15 +9,14 @@ Ejemplo de una cadena de suministro formada por 15 plantas de almacenamiento, 11
 
 ### Segunda parte
 - Determinar un conjunto de plantas de almacenaje, puertos de origen y puertos de destino que minimicen el costo total de la cadena de suministro.
-  
-En este caso, la función objetivo a optimizar es: </br>
 
-$$ X_{ki} = q_{ki}*C_i $$ </br>
-$$ Y_{ikpjcstm} = \frac{w_{ikpjcstm}}{\sum_{i}{...\sum_{m}{w_{ikpjcstm}}}}*R_{ikpjcstm} $$ </br>
+$$ X_{ki} = q_{ki}*C_i $$
+
+$$ Y_{ikpjcstm} = \frac{w_{ikpjcstm}}{\sum_{i}{...\sum_{m}{w_{ikpjcstm}}}}*R_{ikpjcstm} $$
+
 $$ Z_{ipj} = \sum_{k}{(X_{ki} + \sum_{c}{...\sum_{m}{Y_{ikpjcstm}}})} $$
 
 Bajo las siguientes restricciones:
-Si m = "Tierra": </br>
 
 #### Modo de transporte
 - Aire

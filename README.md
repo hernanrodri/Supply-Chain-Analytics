@@ -27,7 +27,7 @@ Nomenclatura:
 
 - X: Costo de almacenamiento [USD/pedido]
 - Y: Costo de transporte [USD/kg]
-- Z: Costo total de la cadena de numistro [USD/kg]
+- Z: Costo total de la cadena de suministro [USD/kg]
 
 Ecuaciones:
 

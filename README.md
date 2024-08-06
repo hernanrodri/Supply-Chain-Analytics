@@ -18,7 +18,7 @@ Nomenclatura:
 - c: ID de transportista
 - s: Nivel de servicio
 - t: Tiempo de envío [días]
-- m: Modo de trasnporte
+- m: Modo de transporte (aire o tierra)
 
 - X: Costo de almacenamiento [USD/pedido]
 - Y: Costo de transporte [USD/kg]
@@ -27,15 +27,14 @@ Nomenclatura:
 Ecuaciones: </br>
 $$ X_{ki} = q_{ki}*C_i $$
 
-$$ Y_{ikpjcstm} = \frac{w_{ikpjcstm}}{\sum_{i}{...\sum_{m}{w_{ikpjcstm}}}}*R_{ikpjcstm} $$
-
 $$ min \\ Z_{ipj} = \sum_{k}{(X_{ki} + \sum_{c}{...\sum_{m}{Y_{ikpjcstm}}})} $$
 
-Bajo las siguientes restricciones:
+Restricciones: </br>
+$$ Si s = "CRF": X_{ki} = 0 $$
+$$ Si s \neq "CRF": $$
 
-#### Modo de transporte
-- Aire
-- Tierra
+$$ Y_{ikpjcstm} = \frac{w_{ikpjcstm}}{\sum_{i}{...\sum_{m}{w_{ikpjcstm}}}}*R_{ikpjcstm} $$
+
 
 #### Nivel de servicio
 - CRF (Customer Referred Freight): Solo el cliente paga el transporte.

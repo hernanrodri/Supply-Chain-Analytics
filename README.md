@@ -29,7 +29,7 @@ Nomenclatura:
 - Y: Costo de transporte [USD/kg]
 - Z: Costo total de la cadena de suministro [USD]
 
-Ecuaciones:
+Función Objetivo:
 
 $$ X_{ki} = q_{ki}*C_i $$
 

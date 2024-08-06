@@ -28,6 +28,8 @@ Nomenclatura:
 - Y: Costo de transporte [USD/kg]
 - Z: Costo total de la cadena de suministro [USD]
 
+Ecuaciones:
+
 $$ X_{ki} = q_{ki}*C_i $$
 
 $$ Si \ s = CRF: \ Y_{ikpjcstm} = 0 $$
@@ -43,6 +45,8 @@ $$ Z_{ipj} = min \sum_{k}{(X_{ki} + \sum_{c}{...\sum_{m}{Y_{ikpjcstm}}})} $$
 Restricciones:
 
 $$ Si \ Y_{ikpjcstm} < M_{ikpjcstm}: \ Y_{ikpjcstm} = M_{ikpjcstm} $$
+
+$$ w_{ikpjcstm} \leq F_{ikpjcstm} $$
 
 
 #### Nivel de servicio

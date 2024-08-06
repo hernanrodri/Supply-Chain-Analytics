@@ -32,11 +32,11 @@ $$ Z_{ipj} = min \sum_{k}{(X_{ki} + \sum_{c}{...\sum_{m}{Y_{ikpjcstm}}})} $$
 
 Restricciones:
 
-$$ Si \ s = CRF: Y_{ikpjcstm} = 0 $$
+$$ Si \ s = CRF: \ Y_{ikpjcstm} = 0 $$
 
-$$ Si \ s \neq CRF, m = Tierra: Y_{ikpjcstm} = \frac{w_{ikpjcstm}}{\sum_{i}{...\sum_{m}{w_{ikpjcstm}}}}*R_{ikpjcstm} $$
+$$ Si \ s \neq CRF, m = Tierra: \ Y_{ikpjcstm} = \frac{w_{ikpjcstm}}{\sum_{i}{...\sum_{m}{w_{ikpjcstm}}}}*R_{ikpjcstm} $$
 
-$$ Si \ s \neq CRF, m \neq Tierra: Y_{ikpjcstm} = w_{ikpjcstm}*R_{ikpjcstm} $$
+$$ Si \ s \neq CRF, m \neq Tierra: \ Y_{ikpjcstm} = w_{ikpjcstm}*R_{ikpjcstm} $$
 
 #### Nivel de servicio
 - CRF (Customer Referred Freight): Solo el cliente paga el transporte.

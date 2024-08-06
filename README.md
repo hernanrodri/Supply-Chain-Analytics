@@ -1,7 +1,7 @@
 # Análisis de una cadena de suministro (Supply Chain)
 ## Descripción del proyecto
 
-<img src = "Supply Chain Image.png" width="500">
+<img src = "Supply Chain Image.png" width = "500">
 Cadena de suministro formada por 15 plantas de almacenamiento, 11 puertos de orígenes y 1 puerto de destino.
 
 ### Primera parte
@@ -11,7 +11,7 @@ Cadena de suministro formada por 15 plantas de almacenamiento, 11 puertos de or�
 - Determinar un conjunto de plantas de almacenaje, puertos de origen y puertos de destino que minimicen el costo total de la cadena de suministro.
   
 En este caso, la función objetivo a optimizar es: </br>
-Costo total = Costo de almacenaje + Costo de transporte
+$$ Costo total = Costo de almacenaje + Costo de transporte $$
 
 Bajo las siguientes restricciones:
 Si m = "Tierra": </br>

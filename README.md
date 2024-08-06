@@ -13,7 +13,8 @@ Ejemplo de una cadena de suministro formada por 15 plantas de almacenamiento, 11
 En este caso, la función objetivo a optimizar es: </br>
 
 $$ X_{ki} = q_{ki}*C_i $$
-
+$$ Y_{ikpjcstm} = \frac{w_{ikpjcstm}}{\sum_{i}{...\sum_{m}{w_{ikpjcstm}}}}*R_{ikpjcstm} $$
+$$ Z_{ipj} = \sum_{k}{(X_{ki} + \sum_{c}{...\sum_{m}{Y_{ikpjcstm}}})} $$
 
 Bajo las siguientes restricciones:
 Si m = "Tierra": </br>

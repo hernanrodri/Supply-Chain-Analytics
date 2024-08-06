@@ -6,7 +6,7 @@
 </p>
 
 <p align = "center">
-  Ejemplo de una cadena de suministro formada por 15 plantas de almacenamiento, 11 puertos de orígenes y 1 puerto de destino.
+  <span style = "font-size: 0.5em;"> Ejemplo de una cadena de suministro formada por 15 plantas de almacenamiento, 11 puertos de orígenes y 1 puerto de destino. </span>
 </p>
 
 ### Primera parte

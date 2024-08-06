@@ -21,7 +21,9 @@ Nomenclatura:
 - s: Nivel de servicio
 - t: Tiempo de envío [días]
 - m: Modo de transporte (aire o tierra)
+- q: Cantidad de items en cada pedido [items]
 
+- M: Costo de fijo de transporte [USD/kg]
 - X: Costo de almacenamiento [USD/item]
 - Y: Costo de transporte [USD/kg]
 - Z: Costo total de la cadena de suministro [USD]
@@ -39,6 +41,8 @@ $$ Si \ s = CRF: \ Y_{ikpjcstm} = 0 $$
 $$ Si \ s \neq CRF, \ m = Tierra: \ Y_{ikpjcstm} = \frac{w_{ikpjcstm}}{\sum_{i}{...\sum_{m}{w_{ikpjcstm}}}}*R_{ikpjcstm} $$
 
 $$ Si \ s \neq CRF, \ m \neq Tierra: \ Y_{ikpjcstm} = w_{ikpjcstm}*R_{ikpjcstm} $$
+
+$$ Si Y_{ikpjcstm} < M_{ikpjcstm}: \ Y_{ikpjcstm} = M_{ikpjcstm} $$
 
 #### Nivel de servicio
 - CRF (Customer Referred Freight): Solo el cliente paga el transporte.

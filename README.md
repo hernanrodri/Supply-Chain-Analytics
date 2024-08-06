@@ -10,6 +10,20 @@ Ejemplo de una cadena de suministro formada por 15 plantas de almacenamiento, 11
 ### Segunda parte
 - Determinar un conjunto de plantas de almacenaje, puertos de origen y puertos de destino que minimicen el costo total de la cadena de suministro.
 
+Nomenclatura:
+- k: ID de pedido
+- i: ID de planta de almacenamiento
+- p: ID de puerto de origen
+- j: ID de puerto de destino
+- c: ID de transportista
+- s: Nivel de servicio
+- t: Tiempo de envío [días]
+- m: Modo de trasnporte
+
+- X: Costo de almacenamiento [USD/pedido]
+- Y: Costo de transporte [USD/kg]
+- Z: Costo total de la logística [USD/kg]
+
 $$ X_{ki} = q_{ki}*C_i $$
 
 $$ Y_{ikpjcstm} = \frac{w_{ikpjcstm}}{\sum_{i}{...\sum_{m}{w_{ikpjcstm}}}}*R_{ikpjcstm} $$

@@ -2,10 +2,10 @@
 ## Descripción del proyecto
 
 <img src = "Supply Chain Image.png" width = "500">
-Cadena de suministro formada por 15 plantas de almacenamiento, 11 puertos de orígenes y 1 puerto de destino.
+Ejemplo de una cadena de suministro formada por 15 plantas de almacenamiento, 11 puertos de orígenes y 1 puerto de destino.
 
 ### Primera parte
-- Realizar un análisis exploratorio de cada una de las tablas de la base de datos "Logistics problem"  </br>
+- Realizar un análisis exploratorio de cada una de las tablas de la base de datos "Logistics problem". </br>
 
 ### Segunda parte
 - Determinar un conjunto de plantas de almacenaje, puertos de origen y puertos de destino que minimicen el costo total de la cadena de suministro.

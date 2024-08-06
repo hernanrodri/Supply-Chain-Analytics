@@ -25,9 +25,9 @@ Nomenclatura:
 - t: Tiempo de envío [días]
 - m: Modo de transporte (aire o tierra)
 
-- X: Costo de almacenamiento [USD/pedido]
+- X: Costo de almacenamiento [USD/item]
 - Y: Costo de transporte [USD/kg]
-- Z: Costo total de la cadena de suministro [USD/kg]
+- Z: Costo total de la cadena de suministro [USD]
 
 Ecuaciones:
 

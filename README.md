@@ -25,12 +25,11 @@ Nomenclatura:
 - Z: Costo total de la logística [USD/kg]
 
 Ecuaciones: </br>
-$$ X_{ki} = q_{ki}*C_i $$
-
+$$ X_{ki} = q_{ki}*C_i $$ </br>
 $$ Z_{ipj} = min \sum_{k}{(X_{ki} + \sum_{c}{...\sum_{m}{Y_{ikpjcstm}}})} $$
 
 Restricciones: </br>
-- $ Si \ s = "CRF": $ $ </br>
+- $ Si \ s = "CRF": $ </br>
 $$ Y_{ikpjcstm} = 0 $$
 
 - $ Si \ s \neq "CRF", m = "Tierra": $ </br>

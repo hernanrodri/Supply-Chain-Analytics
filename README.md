@@ -32,11 +32,11 @@ Ecuaciones:
 
 $$ X_{ki} = q_{ki}*C_i $$
 
-$$ Si \ s = CRF \Rightarrow \ Y_{ikpjcstm} = 0 $$
+$$ Si \ s = CRF \ \Rightarrow \ Y_{ikpjcstm} = 0 $$
 
-$$ Si \ s \neq CRF, \ m = Tierra \Rightarrow \ Y_{ikpjcstm} = \frac{w_{ikpjcstm}}{\sum_{i}{...\sum_{m}{w_{ikpjcstm}}}}*R_{ikpjcstm} $$
+$$ Si \ s \neq CRF, \ m = Tierra \ \Rightarrow \ Y_{ikpjcstm} = \frac{w_{ikpjcstm}}{\sum_{i}{...\sum_{m}{w_{ikpjcstm}}}}*R_{ikpjcstm} $$
 
-$$ Si \ s \neq CRF, \ m \neq Tierra \Rightarrow \ Y_{ikpjcstm} = w_{ikpjcstm}*R_{ikpjcstm} $$
+$$ Si \ s \neq CRF, \ m \neq Tierra \ \Rightarrow \ Y_{ikpjcstm} = w_{ikpjcstm}*R_{ikpjcstm} $$
 
 Función Objetivo:
 
@@ -44,7 +44,7 @@ $$ Z_{ipj} = min \sum_{k}{(X_{ki} + \sum_{c}{...\sum_{m}{Y_{ikpjcstm}}})} $$
 
 Restricciones:
 
-$$ Si \ Y_{ikpjcstm} < M_{ikpjcstm} \Rightarrow \ Y_{ikpjcstm} = M_{ikpjcstm} $$
+$$ Si \ Y_{ikpjcstm} < M_{ikpjcstm} \ \Rightarrow \ Y_{ikpjcstm} = M_{ikpjcstm} $$
 
 $$ w_{ikpjcstm} \leq F_{ikpjcstm} $$
 

@@ -11,7 +11,9 @@ Ejemplo de una cadena de suministro formada por 15 plantas de almacenamiento, 11
 - Determinar un conjunto de plantas de almacenaje, puertos de origen y puertos de destino que minimicen el costo total de la cadena de suministro.
   
 En este caso, la función objetivo a optimizar es: </br>
-$$ Costo total = Costo de almacenaje + Costo de transporte $$
+
+$$ X_{ki} = q_{ki}*C_i $$
+
 
 Bajo las siguientes restricciones:
 Si m = "Tierra": </br>

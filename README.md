@@ -5,7 +5,9 @@
   <img src = "Supply Chain Image.png" width = "500"/>
 </p>
 
-Ejemplo de una cadena de suministro formada por 15 plantas de almacenamiento, 11 puertos de orígenes y 1 puerto de destino.
+<p align = "center">
+  Ejemplo de una cadena de suministro formada por 15 plantas de almacenamiento, 11 puertos de orígenes y 1 puerto de destino.
+</p>
 
 ### Primera parte
 - Realizar un análisis exploratorio de cada una de las tablas de la base de datos "Logistics problem".

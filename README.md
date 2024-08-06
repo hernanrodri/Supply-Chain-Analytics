@@ -23,7 +23,7 @@ Nomenclatura:
 - m: Modo de transporte (aire o tierra)
 - q: Cantidad de items en cada pedido [items]
 
-- M: Costo de fijo de transporte [USD/kg]
+- M: Costo fijo de transporte [USD/kg]
 - X: Costo de almacenamiento [USD/item]
 - Y: Costo de transporte [USD/kg]
 - Z: Costo total de la cadena de suministro [USD]

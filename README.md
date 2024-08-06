@@ -30,14 +30,14 @@ $$ X_{ki} = q_{ki}*C_i $$
 $$ Z_{ipj} = min \sum_{k}{(X_{ki} + \sum_{c}{...\sum_{m}{Y_{ikpjcstm}}})} $$
 
 Restricciones: </br>
-- $ Si \ s = "CRF": $
-$$ Y_{ikpjcstm} = 0 $$ </br>
+- $ Si \ s = "CRF": $ $ </br>
+$$ Y_{ikpjcstm} = 0 $$
 
 - $ Si \ s \neq "CRF", m = "Tierra": $ </br>
-$$ Y_{ikpjcstm} = \frac{w_{ikpjcstm}}{\sum_{i}{...\sum_{m}{w_{ikpjcstm}}}}*R_{ikpjcstm} $$ </br>
+$$ Y_{ikpjcstm} = \frac{w_{ikpjcstm}}{\sum_{i}{...\sum_{m}{w_{ikpjcstm}}}}*R_{ikpjcstm} $$
 
 - $ Si \ s \neq "CRF", m \neq "Tierra": $ </br>
-$$ Y_{ikpjcstm} = w_{ikpjcstm}*R_{ikpjcstm} $$ </br>
+$$ Y_{ikpjcstm} = w_{ikpjcstm}*R_{ikpjcstm} $$
 
 #### Nivel de servicio
 - CRF (Customer Referred Freight): Solo el cliente paga el transporte.

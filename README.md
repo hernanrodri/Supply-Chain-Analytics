@@ -1,7 +1,10 @@
 # Análisis de una cadena de suministro (Supply Chain)
 ## Descripción del proyecto
 
-<img src = "Supply Chain Image.png" width = "500">
+<p align = "center">
+  <img src = "Supply Chain Image.png" width = "500"/>
+</p>
+
 Ejemplo de una cadena de suministro formada por 15 plantas de almacenamiento, 11 puertos de orígenes y 1 puerto de destino.
 
 ### Primera parte
@@ -34,9 +37,9 @@ Restricciones:
 
 $$ Si \ s = CRF: \ Y_{ikpjcstm} = 0 $$
 
-$$ Si \ s \neq CRF, m = Tierra: \ Y_{ikpjcstm} = \frac{w_{ikpjcstm}}{\sum_{i}{...\sum_{m}{w_{ikpjcstm}}}}*R_{ikpjcstm} $$
+$$ Si \ s \neq CRF, \ m = Tierra: \ Y_{ikpjcstm} = \frac{w_{ikpjcstm}}{\sum_{i}{...\sum_{m}{w_{ikpjcstm}}}}*R_{ikpjcstm} $$
 
-$$ Si \ s \neq CRF, m \neq Tierra: \ Y_{ikpjcstm} = w_{ikpjcstm}*R_{ikpjcstm} $$
+$$ Si \ s \neq CRF, \ m \neq Tierra: \ Y_{ikpjcstm} = w_{ikpjcstm}*R_{ikpjcstm} $$
 
 #### Nivel de servicio
 - CRF (Customer Referred Freight): Solo el cliente paga el transporte.

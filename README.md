@@ -36,10 +36,12 @@ Restricciones:
 
 $$ Y_{ikpjcstm} = 0 $$
 
-- $ Si \ s \neq "CRF", m = "Tierra":
+- $ Si \ s \neq "CRF", m = "Tierra": $
+
 $$ Y_{ikpjcstm} = \frac{w_{ikpjcstm}}{\sum_{i}{...\sum_{m}{w_{ikpjcstm}}}}*R_{ikpjcstm} $$
 
 - $ Si \ s \neq "CRF", m \neq "Tierra": $
+
 $$ Y_{ikpjcstm} = w_{ikpjcstm}*R_{ikpjcstm} $$
 
 #### Nivel de servicio

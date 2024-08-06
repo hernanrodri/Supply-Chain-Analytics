@@ -24,8 +24,10 @@ Nomenclatura:
 - Y: Costo de transporte [USD/kg]
 - Z: Costo total de la logística [USD/kg]
 
-Ecuaciones:</br>
-$$ X_{ki} = q_{ki}*C_i $$ </br>
+Ecuaciones:
+
+$$ X_{ki} = q_{ki}*C_i $$
+
 $$ Z_{ipj} = min \sum_{k}{(X_{ki} + \sum_{c}{...\sum_{m}{Y_{ikpjcstm}}})} $$
 
 Restricciones:

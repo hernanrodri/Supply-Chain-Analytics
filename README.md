@@ -1,12 +1,9 @@
 # Análisis de una cadena de suministro (Supply Chain)
 ## Descripción del proyecto
 
+Se tiene una cadena de suministro formada por 15 plantas de almacenamiento, 11 puertos de orígenes y 1 puerto de destino. </br>
 <p align = "center">
   <img src = "Supply Chain Image.png" width = "500"/>
-</p>
-
-<p align = "center">
-  <h6>Ejemplo de una cadena de suministro formada por 15 plantas de almacenamiento, 11 puertos de orígenes y 1 puerto de destino.</h6>
 </p>
 
 ### Primera parte

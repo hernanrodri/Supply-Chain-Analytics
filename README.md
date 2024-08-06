@@ -5,7 +5,7 @@
 Ejemplo de una cadena de suministro formada por 15 plantas de almacenamiento, 11 puertos de orígenes y 1 puerto de destino.
 
 ### Primera parte
-- Realizar un análisis exploratorio de cada una de las tablas de la base de datos "Logistics problem". </br>
+- Realizar un análisis exploratorio de cada una de las tablas de la base de datos "Logistics problem".
 
 ### Segunda parte
 - Determinar un conjunto de plantas de almacenaje, puertos de origen y puertos de destino que minimicen el costo total de la cadena de suministro.
@@ -24,19 +24,17 @@ Nomenclatura:
 - Y: Costo de transporte [USD/kg]
 - Z: Costo total de la logística [USD/kg]
 
-Ecuaciones:
-
-$$ X_{ki} = q_{ki}*C_i $$
-
+Ecuaciones:</br>
+$$ X_{ki} = q_{ki}*C_i $$ </br>
 $$ Z_{ipj} = min \sum_{k}{(X_{ki} + \sum_{c}{...\sum_{m}{Y_{ikpjcstm}}})} $$
 
 Restricciones:
 
 $$ Si \ s = CRF: Y_{ikpjcstm} = 0 $$
 
-$$ Si \ s \neq CRF, m = "Tierra": Y_{ikpjcstm} = \frac{w_{ikpjcstm}}{\sum_{i}{...\sum_{m}{w_{ikpjcstm}}}}*R_{ikpjcstm} $$
+$$ Si \ s \neq CRF, m = Tierra: Y_{ikpjcstm} = \frac{w_{ikpjcstm}}{\sum_{i}{...\sum_{m}{w_{ikpjcstm}}}}*R_{ikpjcstm} $$
 
-$$ Si \ s \neq CRF, m \neq "Tierra": Y_{ikpjcstm} = w_{ikpjcstm}*R_{ikpjcstm} $$
+$$ Si \ s \neq CRF, m \neq Tierra: Y_{ikpjcstm} = w_{ikpjcstm}*R_{ikpjcstm} $$
 
 #### Nivel de servicio
 - CRF (Customer Referred Freight): Solo el cliente paga el transporte.

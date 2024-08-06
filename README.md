@@ -28,13 +28,7 @@ Nomenclatura:
 - Y: Costo de transporte [USD/kg]
 - Z: Costo total de la cadena de suministro [USD]
 
-Función Objetivo:
-
 $$ X_{ki} = q_{ki}*C_i $$
-
-$$ Z_{ipj} = min \sum_{k}{(X_{ki} + \sum_{c}{...\sum_{m}{Y_{ikpjcstm}}})} $$
-
-Restricciones:
 
 $$ Si \ s = CRF: \ Y_{ikpjcstm} = 0 $$
 
@@ -42,7 +36,14 @@ $$ Si \ s \neq CRF, \ m = Tierra: \ Y_{ikpjcstm} = \frac{w_{ikpjcstm}}{\sum_{i}{
 
 $$ Si \ s \neq CRF, \ m \neq Tierra: \ Y_{ikpjcstm} = w_{ikpjcstm}*R_{ikpjcstm} $$
 
-$$ Si Y_{ikpjcstm} < M_{ikpjcstm}: \ Y_{ikpjcstm} = M_{ikpjcstm} $$
+Función Objetivo:
+
+$$ Z_{ipj} = min \sum_{k}{(X_{ki} + \sum_{c}{...\sum_{m}{Y_{ikpjcstm}}})} $$
+
+Restricciones:
+
+$$ Si \ Y_{ikpjcstm} < M_{ikpjcstm}: \ Y_{ikpjcstm} = M_{ikpjcstm} $$
+
 
 #### Nivel de servicio
 - CRF (Customer Referred Freight): Solo el cliente paga el transporte.

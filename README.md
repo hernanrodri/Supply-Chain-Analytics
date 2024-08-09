@@ -33,21 +33,21 @@ Ecuaciones:
 
 $$ X_{ki} = q_{ki}*C_i $$
 
-$$ Si \ s = CRF \ \Rightarrow \ Y_{ikpjcstm} = 0 $$
+$$ Si \ s = CRF \ \Rightarrow \ Y_{kpjcstm} = 0 $$
 
-$$ Si \ s \neq CRF, \ m = Tierra \ \Rightarrow \ Y_{ikpjcstm} = \frac{w_{ikpjcstm}}{\sum_{i}{w_{ikpjcstm}}}*R_{ikpjcstm} $$
+$$ Si \ s \neq CRF, \ m = Tierra \ \Rightarrow \ Y_{kpjcstm} = \frac{w_{kpjcstm}}{\sum_{i}{w_{kpjcstm}}}*R_{kpjcstm} $$
 
-$$ Si \ s \neq CRF, \ m \neq Tierra \ \Rightarrow \ Y_{ikpjcstm} = w_{ikpjcstm}*R_{ikpjcstm} $$
+$$ Si \ s \neq CRF, \ m \neq Tierra \ \Rightarrow \ Y_{kpjcstm} = w_{kpjcstm}*R_{kpjcstm} $$
 
 Función Objetivo:
 
-$$ Z_{ipj} = min \sum_{k}{(X_{ki} + Y_{ikpj})} $$
+$$ Z_{ipj} = min \sum_{k}{(X_{ki} + Y_{kpj})} $$
 
 Restricciones:
 
-$$ Si \ Y_{ikpjcstm} < M_{ikpjcstm} \ \Rightarrow \ Y_{ikpjcstm} = M_{ikpjcstm} $$
+$$ Si \ Y_{kpjcstm} < M_{kpjcstm} \ \Rightarrow \ Y_{kpjcstm} = M_{kpjcstm} $$
 
-$$ w_{ikpjcstm} \leq F_{ikpjcstm} $$
+$$ w_{kpjcstm} \leq F_{kpjcstm} $$
 
 
 #### Nivel de servicio

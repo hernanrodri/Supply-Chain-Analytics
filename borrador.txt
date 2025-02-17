@@ -1,4 +1,0 @@
-#### Nivel de servicio
-- CRF (Customer Referred Freight): Solo el cliente paga el transporte.
-- DTD (Door To Door)
-- DTP (Door To Port)

@@ -9,7 +9,7 @@ Se tiene una cadena de suministro formada por 15 plantas de almacenamiento, 11 p
 </p>
 
 ### Primera parte
-- Extracción de una base de datos <a href = "https://brunel.figshare.com/articles/dataset/Supply_Chain_Logistics_Problem_Dataset/7558679?file=20162015"> Database </a>.
+- Extracción de una base de datos <a href = "https://brunel.figshare.com/articles/dataset/Supply_Chain_Logistics_Problem_Dataset/7558679?file=20162015" target="_blank" rel="noopener noreferrer"> Database </a>.
 - Transformación de los datos (eliminación de filas duplicadas, eliminación de valores nulos, etc.)
 - Análisis exploratorio de cada tabla de datos.
 

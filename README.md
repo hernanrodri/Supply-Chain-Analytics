@@ -19,6 +19,12 @@ Se tiene una cadena de suministro formada por 15 plantas de almacenamiento, 11 p
 - Análisis prescriptivo (optimización) y determinación de KPI´s financieros.
 - Visualización de los resultados.
 
+<p align = "center">
+  <img src = "Modelo.png" width = "500"/>
+</p>
+
+
 <br>
 Lenguaje de Programación utilizado: Python
+<br>
 Librerías: Numpy, Pandas

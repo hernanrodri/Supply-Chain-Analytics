@@ -9,14 +9,16 @@ Se tiene una cadena de suministro formada por 15 plantas de almacenamiento, 11 p
 </p>
 
 ### Primera parte
-- Extracción de la base de datos.
-- Análisis exploratorio de cada tabla de la base de datos.
+- Extracción de una base de datos <a href = "https://brunel.figshare.com/articles/dataset/Supply_Chain_Logistics_Problem_Dataset/7558679?file=20162015"> Database </a>.
+- Transformación de los datos (eliminación de filas duplicadas, eliminación de valores nulos, etc.)
+- Análisis exploratorio de cada tabla de datos.
 
 ### Segunda parte
 - Modelado de los datos.
-- Ánalisis prescriptivo (Optimización de la cadena de suministro).
-- Determinación de KPIs.
-- Análisis de los resultados.
+- Análisis exploratorio de la tabla resultante.
+- Análisis prescriptivo (optimización) y determinación de KPI´s financieros.
+- Visualización de los resultados.
 
-## Referencias
-<a href = "https://brunel.figshare.com/articles/dataset/Supply_Chain_Logistics_Problem_Dataset/7558679?file=20162015"> Database </a>
+<br>
+Lenguaje de Programación utilizado: Python
+Librerías: Numpy, Pandas

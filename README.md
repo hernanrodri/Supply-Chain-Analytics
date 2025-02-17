@@ -19,8 +19,7 @@ Se tiene una cadena de suministro formada por 15 plantas de almacenamiento, 11 p
 - Análisis prescriptivo (optimización) y determinación de KPI´s financieros.
 - Visualización de los resultados.
 
-<br>
-<br>
+### Descripción de la base de datos
 La base de datos está conformada por 7 tablas en un archivo de Excel. A su vez,
 <br>
 <br>
@@ -30,6 +29,8 @@ La base de datos está conformada por 7 tablas en un archivo de Excel. A su vez,
 <br>
 Sin embargo, algunas tablas de dimensiones son redundantes, es decir, que son necesarias incluir en el modelo de datos (como en el caso de las tablas Clientes y Productos por Planta) ya que la misma información está contenida en las tablas de hechos.
 
+<br>
+<br>
 <p align = "center">
   <img src = "Model.png" width = "500"/>
 </p>

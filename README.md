@@ -20,7 +20,7 @@ Se tiene una cadena de suministro formada por 15 plantas de almacenamiento, 11 p
 - Visualización de los resultados.
 
 <p align = "center">
-  <img src = "Modelo.png" width = "500"/>
+  <img src = "Model.png" width = "500"/>
 </p>
 
 
